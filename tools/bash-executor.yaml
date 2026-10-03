@@ -1,0 +1,13 @@
+name: "bash-executor"
+description: "Executes independent, stateless shell commands inside an isolated container or local sandbox."
+input_schema:
+  type: "object"
+  properties:
+    command:
+      type: "string"
+      description: "Shell command string to execute."
+    timeout:
+      type: "integer"
+      description: "Maximum execution timeout in seconds."
+  required:
+    - "command"

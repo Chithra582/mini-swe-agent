@@ -1,0 +1,10 @@
+name: "patch-generator"
+description: "Generates unified git diff patches against the repository base commit."
+input_schema:
+  type: "object"
+  properties:
+    target_dir:
+      type: "string"
+      description: "Repository workspace root path."
+  required:
+    - "target_dir"

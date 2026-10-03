@@ -1,0 +1,14 @@
+name: "trajectory-logger"
+description: "Serializes complete linear message trajectories and tool execution steps into structured JSON."
+input_schema:
+  type: "object"
+  properties:
+    session_id:
+      type: "string"
+      description: "Evaluation session identifier."
+    output_path:
+      type: "string"
+      description: "Target file path for trajectory JSON."
+  required:
+    - "session_id"
+    - "output_path"

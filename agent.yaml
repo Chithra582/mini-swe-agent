@@ -1,0 +1,21 @@
+spec_version: "0.1.0"
+name: "mini-swe-agent"
+version: "1.0.0"
+description: "Minimalist, high-performance autonomous software engineering agent solving complex coding benchmarks via stateless bash execution and linear trajectories."
+author: "SWE-agent Team <contact@swe-agent.com>"
+license: "MIT"
+metadata:
+  domain: "Autonomous Software Engineering & Benchmark Evaluation"
+  category: "Developer Tools"
+  framework: "mini-swe-agent"
+  language: "Python"
+skills:
+  - "stateless-bash-execution"
+  - "linear-trajectory-tracking"
+  - "git-patch-generation-and-test"
+  - "sandboxed-environment-management"
+tools:
+  - "bash-executor"
+  - "patch-generator"
+  - "sandbox-runner"
+  - "trajectory-logger"
